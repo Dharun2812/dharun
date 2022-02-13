@@ -1,0 +1,68 @@
+body {
+    background-color: #00000009;
+}
+
+
+
+h1{
+    color: chartreuse;
+    text-align: center;
+    font-size: 40px;
+    background-color: blue;
+    margin: 0%;
+}
+
+.icon-bar {
+    width: 100%;
+    background-color: rgba(85, 85, 85, 0);
+    overflow: auto;
+}
+
+.icon-bar a {
+    float: left;
+    background-color: black;
+    width: 16.66%;
+    text-align: center;
+    color: rgb(114, 4, 136);
+    font-size: 3vw;
+    text-decoration: none;
+    font-family: 'Bahnschrift', Courier, monospace;
+    
+}
+
+.icon-bar a:hover {
+    background-color: #ffff00;
+    color: #0b08a7d8;
+    text-decoration: none;
+}
+
+
+.icon-bar a:active{
+    background-color:#3df803de;
+    text-decoration: none;
+}
+
+.category button{
+    background-color: darkturquoise;
+    color: brown;
+    width: 48%;
+    float: left;
+    padding: 40px 0;
+    margin: 1%;
+    font-size: 40px;
+}
+
+.category button:hover{
+    background-color: brown;
+    color: aqua;
+}
+
+.contact{
+    color: peru;
+    text-decoration: none;
+}
+
+._background{
+    z-index: -1;
+    opacity: 0.2;
+}
