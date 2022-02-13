@@ -7,8 +7,8 @@
     
     <title>ReBook</title>
 
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/forms.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="forms.css">
     
   </head>
   
