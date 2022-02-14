@@ -49,6 +49,7 @@
     </footer>
 
     <div id="login_box" class="box" style="display:none">
+      <span class="close">&times;</span>
       <div id="signup_link_div"><label class="form_switching_link">Sign up</label></div>
       <label id='label0' class='label0'>Log in</label><br>
       <form action="login.php" method="post">
@@ -60,5 +61,16 @@
           <input type="submit" id='submit_btn' class='button0' value="Log in">
       </form>
     </div>
+    <script>
+      var closebtns = document.getElementsByClassName("close");
+      var i;
+
+      for (i = 0; i < closebtns.length; i++) {
+        closebtns[i].addEventListener("click", function() {
+          this.parentElement.style.display = 'none';
+          window.location.reload();
+        });
+      }
+    </script>
   </body>
 </html>
