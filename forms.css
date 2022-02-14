@@ -20,6 +20,14 @@
     user-select: none; /* Standard */
 }
 
+.close{
+    cursor: grab;
+    position: fixed;
+    top: 0;
+    right: 0;
+    transform: translate(0%, -50%);
+}
+
 .label1 {
     font-family: 'Times New Roman', Times, serif;
     display: block;
