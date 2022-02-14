@@ -7,7 +7,8 @@
     
     <title>ReBook</title>
     
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/forms.css">
     
   </head>
   
@@ -21,15 +22,11 @@
       <div id="header_menu" class="icon-bar">
         <a href="index.php">Home</a>
         <a href="#">Donate</a>
-        <a style="float:right" type="a" value="LogIn" onclick="newDoc()">LogIn</a>
+        <a id="login" style="float:right" type="a" value="LogIn" onclick="document.getElementById('login_box').style.display='block';document.getElementById('login').style.display='none';document.getElementById('body').style.opacity='0.2'">LogIn</a>
       </div>
-    <nav>
-    <script>
-      function newDoc() {
-        window.location.assign("login1.php")
-      }
-    </script>
-    <section>
+    </nav>
+
+    <section id="body">
     
       <div id="Our_Aim" class="aim">
 
@@ -49,6 +46,19 @@
         <h2>Contact Us</h2>
         <a href="mailto:dharunramsarathy@gmail.com">Mail address</a>
       </div>
-    </footer>   
+    </footer>
+
+    <div id="login_box" class="box" style="display:none">
+      <div id="signup_link_div"><label class="form_switching_link">Sign up</label></div>
+      <label id='label0' class='label0'>Log in</label><br>
+      <form action="login.php" method="post">
+          <label class="label1">E-mail</label>
+          <input type="email" name="email" class="input"><br>
+          <label class="label1">Password</label>
+          <input type="password" name="pw" class="input"><br>
+          <br>
+          <input type="submit" id='submit_btn' class='button0' value="Log in">
+      </form>
+    </div>
   </body>
 </html>
