@@ -23,7 +23,7 @@
     <nav>
       <div id="header_menu" class="icon-bar">
         <a href="index.php">Home</a>
-        <a href="#">Donate</a>
+        <a href="donate.php">Donate</a>
         <a style="float:right"  type="a" class="login" data-toggle="modal" data-target="#myModal">
             LogIn
         </a>
