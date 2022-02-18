@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ReBook/Donate</title>
 </head>
 <body>
     <?php
@@ -127,29 +127,5 @@
         
         <input type="submit" name="submit" value="Submit">
     </form>
-    <!--<?php
-    echo "<h2>Your Input</h2>";
-    echo $fname;
-    echo "<br>";
-    echo $lname;
-    echo "<br>";
-    echo $contact;
-    echo "<br>";
-    echo $email;
-    echo "<br>";
-    echo $add_1;
-    echo "<br>";
-    echo $add_2;
-    echo "<br>";
-    echo $city;
-    echo "<br>";
-    echo $district;
-    echo "<br>";
-    echo $state;
-    echo "<br>";
-    echo $pincode;
-    echo "<br>";
-    echo $book_type;
-    ?>-->
 </body>
 </html>
