@@ -24,7 +24,7 @@
       <div id="header_menu" class="icon-bar">
         <a href="index.php">Home</a>
         <a href="donate.php">Donate</a>
-        <a style="float:right"  type="a" class="login" data-toggle="modal" data-target="#myModal">
+        <a style="float:right; cursor:pointer"  type="a" class="login" data-toggle="modal" data-target="#myModal">
             LogIn
         </a>
 
@@ -52,7 +52,7 @@
         <a href="mailto:dharunramsarathy@gmail.com">Mail address</a>
       </div>
     </footer>   
-
+<?php require 'validate.php' ?>
     <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
       <div class="modal-dialog" role="document">
           <div class="modal-content clearfix">
@@ -60,9 +60,10 @@
               <div class="modal-body">
                   <h3 class="title">Login Form</h3>
                   <p class="description">Login here Using Email & Password</p>
+                <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>" method="post">
                   <div class="form-group">
                       <span class="input-icon"><i class="fa fa-user"></i></span>
-                      <input type="email" class="form-control" placeholder="Enter email">
+                      <input type="email" class="form-control" placeholder="Enter email" name="email">
                   </div>
                   <div class="form-group">
                       <span class="input-icon"><i class="fas fa-key"></i></span>
@@ -70,10 +71,12 @@
                   </div>
                   <div class="form-group checkbox">
                       <input type="checkbox">
-                      <label>Remamber me</label>
+                      <label>Remember me</label>
                   </div>
                   <a href="" class="forgot-pass">Forgot Password?</a>
                   <button class="btn">Login</button>
+                </form>
+                  <a class="sign_up" href="#">sign up</a>
               </div>
           </div>
       </div>
