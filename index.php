@@ -7,7 +7,7 @@
     
     <title>ReBook</title>
     
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="forms.css">
     <script src="https://code.jquery.com/jquery-3.6.0.js" type="text/javascript"></script>
